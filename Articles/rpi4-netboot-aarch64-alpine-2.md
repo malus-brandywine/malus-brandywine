@@ -79,11 +79,15 @@ On an SD card create 2 primary partitions, 150M and 200M (minimums). Make first 
 
 /home/rpart/alpine is ready to be mounted via NFS
 
+</br>
 
+I put log of bootloader into [small note](https://github.com/malus-brandywine/malus-brandywine/blob/master/Articles/rpi4-netboot-aarch64-alpine-notes-2.md)
+
+</br>
 
 ### Shortcuts to official pages
 
-raspberrypi.org
+#### raspberrypi.org
 
 Debugging the network boot mode:</br>
 https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/net.md
@@ -95,7 +99,7 @@ How to update firmware:</br>
 https://www.raspberrypi.org/documentation/hardware/raspberrypi/booteeprom.md
 
 
-wiki.alpinelinux.org
+#### wiki.alpinelinux.org
 
 RaspberryPi installation:</br>
 https://wiki.alpinelinux.org/wiki/Raspberry_Pi

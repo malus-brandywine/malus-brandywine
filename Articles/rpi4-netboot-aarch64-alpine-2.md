@@ -79,3 +79,24 @@ On an SD card create 2 primary partitions, 150M and 200M (minimums). Make first 
 
 /home/rpart/alpine is ready to be mounted via NFS
 
+
+
+### Shortcuts to official pages
+
+raspberrypi.org
+
+Debugging the network boot mode:</br>
+https://www.raspberrypi.org/documentation/hardware/raspberrypi/bootmodes/net.md
+
+Bootloader parameters and command to update bootloader configuration in EEPROM:</br>
+https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md
+
+How to update firmware:</br>
+https://www.raspberrypi.org/documentation/hardware/raspberrypi/booteeprom.md
+
+
+wiki.alpinelinux.org
+
+RaspberryPi installation:</br>
+https://wiki.alpinelinux.org/wiki/Raspberry_Pi
+

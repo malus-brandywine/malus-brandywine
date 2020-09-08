@@ -1,9 +1,12 @@
 ## Setting up RPi4 network boot for laboratory project
 ## (aarch64, Alpine Linux) 
+</br>
 
 ### Setting
+</br></br>
 
 For my task, I created topologically simple setting: RPi 4 - client - and my laptop - server - are connected via Ethernet.
+</br>
 
 >> Details of the use case
 
@@ -73,6 +76,12 @@ range dynamic-bootp 192.168.7.2   192.168.7.254;</br>
 Option “routers” (  option routers 192.168.7.1;  ) should NOT be filled in, otherwise route table on RPi will have 2 lines with “default” destination.
 Option tftp-server-name is a string ( ! )
 
+</br>
+
+I put some side notes on setting DHCP in separate [small article](https://github.com/malus-brandywine/malus-brandywine/blob/master/Articles/rpi4-netboot-aarch64-alpine-notes-1.md)
+
+</br>
+
 #### Configuration of tftp server (tftpd-hpa)
 
 Configuration file /etc/default/tftpd-hpa:
@@ -84,15 +93,13 @@ TFTP_OPTIONS="--secure"
 
 /mnt/tftpboot is a symlink to “boot directory” (explained later)
 
-
-
-
+</br>
 
 #### Configuration of nfs server (nfs-kernel-server)
 
 Configuration file /etc/exports:
 
-/mnt/rpart *(rw, sync,no_subtree_check,no_root_squash)
+/mnt/rpart \*(rw, sync,no_subtree_check,no_root_squash)
 
 /mnt/rpart is a symlink to “root directory” (explained later)
 

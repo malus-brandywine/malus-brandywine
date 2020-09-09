@@ -81,7 +81,7 @@ On an SD card create 2 primary partitions, 150M and 200M (minimums). Make first 
 
 </br>
 
-I put log of bootloader into [small note](https://github.com/malus-brandywine/malus-brandywine/blob/master/Articles/rpi4-netboot-aarch64-alpine-notes-2.md)
+I put log of bootloader into [small note](https://github.com/malus-brandywine/malus-brandywine/blob/master/Articles/RPi-netboot/docs/rpi4-netboot-aarch64-alpine-notes-2.md)
 
 </br>
 

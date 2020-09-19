@@ -87,12 +87,18 @@ On an SD card create 2 primary partitions, 150M and 200M (minimums). Make first 
 	* ln -s  ../lib/modules  /home/rpart/alpine/.modloop/modules</br>
 	* Disable auto bringup of eth0. In file /etc/network/interfaces/ comment line “auto eth0”
 
-</br>
+
 * Important: don’t forget to copy /lib/modules/{version} which correspond with your kernel into /home/rpart/alpine/lib/modules 
 
 </br>
+
+Note. Additional changes to enable console on uart0:
+* /etc/securetty: add a line "ttyS0"
+* /etc/ssh/sshd_config: set "PasswordAuthentication yes" and "PermitRootLogin yes"
+
+
 </br>
-/home/rpart/alpine is ready to be mounted via NFS
+Directory /home/rpart/alpine is ready to be mounted via NFS
 
 </br>
 </br>

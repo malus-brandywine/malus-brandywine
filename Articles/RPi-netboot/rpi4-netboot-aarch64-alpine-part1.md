@@ -3,15 +3,20 @@
 </br>
 
 ### Setting
-</br></br>
+</br>
 
 For my task, I created topologically simple setting: RPi 4 - client - and my laptop - server - are connected via Ethernet.
 </br>
 
->> Details of the use case
+----
 
->> My goal was to create laboratory setting to explore Xen hypervisor internals and Xen toolstack.</br>
+Details of the use case
+
+
+My goal was to create laboratory setting to explore Xen hypervisor internals and Xen toolstack.</br>
 It means I will add diagnostic messages and experimental code, add/remove current features into the hypervisor and fix bugs if needed. The same scope of tasks is  applied to PV part of Linux kernel and device tree.</br>The nature of the work suggests booting new composite image (Xen binary + Linux kernel) everytime I boot the device, so network boot was crucial for the case.
+
+----
 
 ### Client Side Configuration
 
@@ -27,9 +32,14 @@ Bootloader configuration parameters I changed:
 * TFTP_PREFIX=1				(1 - “custom prefix for filenames”, prefix is a directory name)
 * TFTP_PREFIX_STR=			(It’s empty string, because bootfiles are in root of tftp directory)
 
+
 Original instructions how to change bootloader configuration are in the official documentation</br> (https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711_bootloader_config.md)
 
->> Side notes</br>The configuration mentioned above is enough to use DHCP.</br>Setting parameters CLIENT_ID, SUBNET and GATEWAY along with parameter TFTP_IP skips DHCP procedure as mentioned in the documentation.</br>Setting parameter TFTP_IP without CLIENT_ID, SUBNET and GATEWAY leads to the following scenario: firmware successfully finalizes 4-step DHCP exchange with a proper DHCP server (the one that provides expected PXE options) and than sends requests to TFTP server set in TFTP_IP.
+----
+
+Side notes</br>The configuration mentioned above is enough to use DHCP.</br>Setting parameters CLIENT_ID, SUBNET and GATEWAY along with parameter TFTP_IP skips DHCP procedure as mentioned in the documentation.</br>Setting parameter TFTP_IP without CLIENT_ID, SUBNET and GATEWAY leads to the following scenario: firmware successfully finalizes 4-step DHCP exchange with a proper DHCP server (the one that provides expected PXE options) and than sends requests to TFTP server set in TFTP_IP.
+
+----
 
 
 ### Server side configuration
@@ -47,15 +57,20 @@ Packages to support network boot:
 
 It’s worth to prepare scripts-helpers to restart the services:
 dhcp.restart:
-> sudo systemctl stop isc-dhcp-server.service</br>sudo systemctl start isc-dhcp-server.service</br>sudo systemctl status isc-dhcp-server.service
+
+_sudo systemctl stop isc-dhcp-server.service_</br>
+_sudo systemctl start isc-dhcp-server.service_</br>
+_sudo systemctl status isc-dhcp-server.service_
 
 tftp.restart:
-> sudo systemctl restart tftpd-hpa.service
+
+_sudo systemctl restart tftpd-hpa.service_
 
 nfs.restart:
-> sudo systemctl restart nfs-kernel-server
 
-Network topology.
+_sudo systemctl restart nfs-kernel-server_
+
+#### Network topology
 
 Both Ubuntu laptop and RPi access home network (192.168.125.0) via wireless interface and get IP addresses with DHCP service provided by the third server.</br>
 At the same time both the devices are connected with each other into subnet via Ethernet (192.168.7.0). In the latter subnet Ubuntu laptop is a DHCP server for RPi.

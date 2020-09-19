@@ -28,6 +28,7 @@ Creating disk-based installation
 I use Alpine Linux 3.12.0 (alpine-rpi-3.12.0-aarch64.tar.gz)
 </br>
 </br>
+
 ----
 
 Side notes. Structure of installation disk briefly:

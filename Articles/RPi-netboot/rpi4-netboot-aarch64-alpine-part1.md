@@ -18,6 +18,8 @@ It means I will add diagnostic messages and experimental code, add/remove curren
 
 ----
 
+</br>
+
 ### Client Side Configuration
 
 I used Raspberry Pi 4B RAM 2GB.
@@ -41,8 +43,10 @@ Side notes</br>The configuration mentioned above is enough to use DHCP.</br>Sett
 
 ----
 
+</br>
 
 ### Server side configuration
+
 
 I use minimal Ubuntu 20.04 on my laptop.
 
@@ -56,6 +60,7 @@ Packages to support network boot:
 
 
 It’s worth to prepare scripts-helpers to restart the services:
+
 dhcp.restart:
 
 _sudo systemctl stop isc-dhcp-server.service_</br>
@@ -70,10 +75,14 @@ nfs.restart:
 
 _sudo systemctl restart nfs-kernel-server_
 
+</br>
+
 #### Network topology
 
 Both Ubuntu laptop and RPi access home network (192.168.125.0) via wireless interface and get IP addresses with DHCP service provided by the third server.</br>
 At the same time both the devices are connected with each other into subnet via Ethernet (192.168.7.0). In the latter subnet Ubuntu laptop is a DHCP server for RPi.
+
+</br>
 
 #### Configuration of dhcp server (isc-dchp-server)
 

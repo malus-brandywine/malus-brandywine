@@ -1,6 +1,6 @@
 ### Preparing file systems
 
-The project maintains two filesystems that correspond to “boot” and “root” partitions that RPi boot procedure relies on.
+The project maintains two filesystems that correspond with “boot” and “root” partitions that RPi boot procedure relies on.
 
 “Boot directory” contains number of boot files and a directory with device tree overlays.</br>
 “Root directory” contains root filesystem. 
@@ -15,10 +15,10 @@ So, I made disk-based installation following the original instructions (https://
 
 Directories supporting network boot:
 
-> /home/bpart/alpine			- “boot directory”</br>
-/home/rpart/alpine			- “root directory”</br>
-/mnt/tftpboot -> /home/bpart/alpine	- TFTP root directory</br>
-/mnt/rpart -> /home/rpart/alpine		- directory shared via NFS
+* /home/bpart/alpine			- “boot directory”</br>
+* /home/rpart/alpine			- “root directory”</br>
+* /mnt/tftpboot -> /home/bpart/alpine	- TFTP root directory</br>
+* /mnt/rpart -> /home/rpart/alpine		- directory shared via NFS
 
 
 #### Root filesystem
@@ -26,62 +26,78 @@ Directories supporting network boot:
 Creating disk-based installation
 
 I use Alpine Linux 3.12.0 (alpine-rpi-3.12.0-aarch64.tar.gz)
+</br>
 
->> Side notes. Structure of installation disk briefly:
+----
 
->> Root directory</br>
-RPi boot files (start.elf, … except Linux image)</br>
->>> directory “overlays” (dt overlays)</br>
-directory “boot”</br>
-directory “apks”
+Side notes. Structure of installation disk briefly:
 
->> Directory “boot”</br>
->>> kernel images “vmLinuz-rpi”, “vmLinuz-rpi4”</br>
-	kernel config files “config-rpi”, “config-rpi4”</br>
-	“modloop-rpi”, “modloop-rpi4” - disk images containing kernel modules and firmware</br>
-	“initramfs-rpi”, “initramfs-rpi4” - base root fs
+Root directory</br>
+* RPi boot files (start.elf, … except Linux image)</br>
+* directory “overlays” (dt overlays)</br>
+* directory “boot”</br>
+* directory “apks”
 
->> Directory “apks”</br>
->>> /aarch64/*.apk - packages archived</br>
-	/aarch64/APKINDEX.tar.gz - index of local packages
+Directory “boot”</br>
+* kernel images “vmLinuz-rpi”, “vmLinuz-rpi4”</br>
+* kernel config files “config-rpi”, “config-rpi4”</br>
+* “modloop-rpi”, “modloop-rpi4” - disk images containing kernel modules and firmware</br>
+* “initramfs-rpi”, “initramfs-rpi4” - base root fs
 
-Full instruction set is on the official Alpine wiki: https://wiki.alpinelinux.org/wiki/Raspberry_Pi
+Directory “apks”</br>
+* /aarch64/*.apk - packages archived</br>
+* /aarch64/APKINDEX.tar.gz - index of local packages
 
 
-Brief instructions.
+----
+</br>
+
+##### Brief instructions
+
+</br>
+
+Full instruction set is on the official Alpine wiki:  https://wiki.alpinelinux.org/wiki/Raspberry_Pi
+
+
 
 On an SD card create 2 primary partitions, 150M and 200M (minimums). Make first one FAT 32, the second one Linux.
 
 * Create both filesystems and mount the first partition:</br>
-								mkdosfs -F 32 /dev/sdX1</br>
-								mkfs.ext4 /dev/sdX2
+	* mkdosfs -F 32 /dev/sdX1</br>
+	* mkfs.ext4 /dev/sdX2
 
 * Download alpine-rpi-x.x.x-aarch64.tar.gz, unpack it, copy the extracted file tree into the first partition. The SD card is now bootable
 * Run target with the SD card inserted, login “root” with empty password, then run</br>
-				setup-alpine (on request “Enter mirror number (1-48) or URL …” choose “r” to add  random mirror, memorize hostname you choose)</br>
-				apk update; apk upgrade</br>
-				rc-update add wpa_supplicant boot</br>
-				apk add nano</br>
-				lbu commit -d</br>
-				reboot
+	* setup-alpine
+		* on request “Enter mirror number (1-48) or URL …” choose “r” to add  random mirror
+		* memorize hostname you choose</br>
+	* apk update; apk upgrade</br>
+	* rc-update add wpa_supplicant boot</br>
+	* apk add nano</br>
+	* lbu commit -d</br>
+	* reboot
 				
 * Diskless installation is ready. Next, continue to disk-based one.</br>
-				mount   /dev/mmcblk0p2  /mnt</br>
-				setup-disk  -o /media/mmcblk0p1/{hostname}.apkovl.tar.gz   /mnt</br>
-				poweroff target, copy the second partition of SD card into /home/rpart/alpine
+	* mount   /dev/mmcblk0p2  /mnt</br>
+	* setup-disk  -o /media/mmcblk0p1/{hostname}.apkovl.tar.gz   /mnt</br>
+	* poweroff target, copy the second partition of SD card into /home/rpart/alpine
 				
 * Some adjustments to make init scripts working:</br>
-				mkdir /home/rpart/alpine/.modloop</br>
-				ln -s  ../lib/modules  /home/rpart/alpine/.modloop/modules</br>
-				Disable auto bringup of eth0. In file /etc/network/interfaces/ comment line “auto eth0”
-				
-* Important: don’t forget to copy /lib/modules/{version} which correspond to your kernel into /home/rpart/alpine/lib/modules 
+	* mkdir /home/rpart/alpine/.modloop</br>
+	* ln -s  ../lib/modules  /home/rpart/alpine/.modloop/modules</br>
+	* Disable auto bringup of eth0. In file /etc/network/interfaces/ comment line “auto eth0”
 
+</br>
+* Important: don’t forget to copy /lib/modules/{version} which correspond with your kernel into /home/rpart/alpine/lib/modules 
+
+
+</br>
 /home/rpart/alpine is ready to be mounted via NFS
+
 
 </br>
 
-I put log of bootloader into [small note](https://github.com/malus-brandywine/malus-brandywine/blob/master/Articles/RPi-netboot/docs/rpi4-netboot-aarch64-alpine-notes-2.md)
+I put a log of bootloader into [small note](https://github.com/malus-brandywine/malus-brandywine/blob/master/Articles/RPi-netboot/docs/rpi4-netboot-aarch64-alpine-notes-2.md)
 
 </br>
 

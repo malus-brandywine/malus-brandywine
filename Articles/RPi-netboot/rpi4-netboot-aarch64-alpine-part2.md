@@ -27,7 +27,7 @@ Creating disk-based installation
 
 I use Alpine Linux 3.12.0 (alpine-rpi-3.12.0-aarch64.tar.gz)
 </br>
-
+</br>
 ----
 
 Side notes. Structure of installation disk briefly:
@@ -58,7 +58,7 @@ Directory “apks”</br>
 
 Full instruction set is on the official Alpine wiki:  https://wiki.alpinelinux.org/wiki/Raspberry_Pi
 
-
+</br>
 
 On an SD card create 2 primary partitions, 150M and 200M (minimums). Make first one FAT 32, the second one Linux.
 
@@ -90,11 +90,11 @@ On an SD card create 2 primary partitions, 150M and 200M (minimums). Make first 
 </br>
 * Important: don’t forget to copy /lib/modules/{version} which correspond with your kernel into /home/rpart/alpine/lib/modules 
 
-
+</br>
 </br>
 /home/rpart/alpine is ready to be mounted via NFS
 
-
+</br>
 </br>
 
 I put a log of bootloader into [small note](https://github.com/malus-brandywine/malus-brandywine/blob/master/Articles/RPi-netboot/docs/rpi4-netboot-aarch64-alpine-notes-2.md)

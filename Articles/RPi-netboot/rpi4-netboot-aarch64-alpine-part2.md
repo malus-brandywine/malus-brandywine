@@ -94,6 +94,7 @@ On an SD card create 2 primary partitions, 150M and 200M (minimums). Make first 
 </br>
 
 Note. Additional changes to enable console on uart0:
+* /etc/inittab: add line "hvc0::respawn:/sbin/getty -L hvc0 115200 vt102"
 * /etc/securetty: add a line "ttyS0"
 * /etc/ssh/sshd_config: set "PasswordAuthentication yes" and "PermitRootLogin yes"
 

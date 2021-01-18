@@ -48,7 +48,7 @@ Side notes</br>The configuration mentioned above is enough to use DHCP.</br>Sett
 ### Server side configuration
 
 
-I use minimal Ubuntu 20.04 on my laptop.
+I use minimal Ubuntu 18.04 on my laptop.
 
 (http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/mini.iso)
 

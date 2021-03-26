@@ -25,3 +25,17 @@ Ultra96V2 links:
 - [Element14: Docs & Reference Designs](https://www.element14.com/community/docs/DOC-95649)
 - [Element 14: How to build petalinux BSP](https://www.element14.com/community/groups/fpga-group/blog/2020/05/01/petalinux-git-howto)
 - [Element 14: petalinux 2019.2 BSP release by Avnet](https://www.element14.com/community/groups/fpga-group/blog/2020/02/24/new-petalinux-20192-bsp-for-ultra96-v2)
+
+
+</br>
+</br>
+
+OpenAMP links in systematic order:
+- Overview
+    - [OpenAMP Overview](https://github.com/OpenAMP/open-amp/wiki/OpenAMP-Overview)
+    - [OpenAMP Stack, RPMsg Messaging Protocol](https://github.com/OpenAMP/open-amp/wiki/RPMsg-Messaging-Protocol)
+    - [OpenAMP Life Cycle Management](https://github.com/OpenAMP/open-amp/wiki/OpenAMP-Life-Cycle-Management)
+    - [OpenAMP Components](https://github.com/OpenAMP/open-amp/wiki/OpenAMP-Components-and-Capabilities)
+
+
+

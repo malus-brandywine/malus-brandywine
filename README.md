@@ -43,4 +43,6 @@ OpenAMP links in systematic order:
     - [RPMsg Communication Flow](https://github.com/OpenAMP/open-amp/wiki/RPMsg-Communication-Flow)
     - [RPMsg Virtio Implementation](https://github.com/OpenAMP/open-amp/wiki/OpenAMP-RPMsg-Virtio-Implementation)
 
+</br>
 
+[Some resources at Linaro. Make sure to select "All Resources", search for "OpenAMP"](https://connect.linaro.org/resources/)

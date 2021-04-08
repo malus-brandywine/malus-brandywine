@@ -8,10 +8,6 @@
 </br>
 </br>
 
-
-</br>
-</br>
-
 - [VirtIO](https://github.com/malus-brandywine/malus-brandywine/blob/master/virtio/virtio.md)
 
 - [OpenAMP](https://github.com/malus-brandywine/malus-brandywine/blob/master/OpenAMP/OpenAMP.md)
@@ -30,11 +26,7 @@
 </br>
 
 
-</br>
-</br>
-
-
-[Ultra96V2](https://github.com/malus-brandywine/malus-brandywine/blob/master/Ultra96V2/Ultra96V2.md)
+- [Ultra96V2](https://github.com/malus-brandywine/malus-brandywine/blob/master/Ultra96V2/Ultra96V2.md)
 
 
 </br>

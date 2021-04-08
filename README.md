@@ -5,8 +5,6 @@
 
 #### Materials on the Topics
 
-</br>
-</br>
 
 - [VirtIO](https://github.com/malus-brandywine/malus-brandywine/blob/master/virtio/virtio.md)
 

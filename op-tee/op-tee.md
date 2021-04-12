@@ -2,6 +2,7 @@
 
 - [OP-TEE home](https://www.op-tee.org/)
 - [OP-TEE documentattion](https://optee.readthedocs.io/en/latest/)
+- Check [All Linaro Resources](https://connect.linaro.org/resources/), use "op-tee" in search
 
 </br>
 

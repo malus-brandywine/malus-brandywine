@@ -6,11 +6,11 @@
 
 </br>
 
-
 - [Section "Software Standards"](https://developer.arm.com/architectures/system-architectures/software-standards)
 
+</br>
 
-Boot Requirements
+Boot Requirements Docs
 
 | |||
 |:--:|:--:|:--:|
@@ -18,4 +18,8 @@ Boot Requirements
 |[Base Boot Security</br>Requirements</br>(BBSR)](https://developer.arm.com/documentation/den0107/latest)|||
 |[Trusted Board Boot</br>Requirements</br>(TBBR) - Client](https://developer.arm.com/documentation/den0006/d/?lang=en)|||
 
+</br>
 
+Trustzone
+
+- [Trustzone Technology](https://developer.arm.com/ip-products/security-ip/trustzone)

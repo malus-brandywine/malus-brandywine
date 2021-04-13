@@ -16,6 +16,6 @@ Boot Requirements
 |:--:|:--:|:--:|
 |Base Boot</br>Requirements</br>(BBR)|Server Base Boot</br>Requirements</br>(SBBR)|Embedded Base Boot</br>Requirements</br>(EBBR)|
 |Base Boot Security</br>Requirements</br>(BBSR)|||
-|Trusted Board Boot</br>Requirements</br>(TBBR) - Client|||
+|[Trusted Board Boot</br>Requirements</br>(TBBR) - Client](https://developer.arm.com/documentation/den0006/d/?lang=en)|||
 
 

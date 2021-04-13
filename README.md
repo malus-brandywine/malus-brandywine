@@ -37,8 +37,8 @@
 </br>
 
 - Automotive Domain
-- 
-   - [Car Connectivity Consortium](https://carconnectivity.org/)
+
+    - [Car Connectivity Consortium](https://carconnectivity.org/)
 
 </br>
 </br>

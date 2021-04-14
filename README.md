@@ -12,7 +12,7 @@
 
 </br>
 
-- TrustedFirmware.org Projects
+- TrustedFirmware.org
 
     - [TrustedFirmware.org Projects](https://github.com/malus-brandywine/malus-brandywine/blob/master/trusted-firmware/trusted-firmware.md)
 

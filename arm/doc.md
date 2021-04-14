@@ -23,3 +23,11 @@ Boot Requirements Docs
 Trustzone
 
 - [Trustzone Technology](https://developer.arm.com/ip-products/security-ip/trustzone)
+
+
+</br>
+
+Arm SystemReady Certification
+
+- [Arm SystemReady Overview](https://developer.arm.com/architectures/system-architectures/arm-systemready)
+

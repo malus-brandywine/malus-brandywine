@@ -3,7 +3,7 @@
 </br>
 
 
-#### Materials on the Topics
+#### Collection of Bookmarks on the Topics
 </br>
 
 - [VirtIO](https://github.com/malus-brandywine/malus-brandywine/blob/master/virtio/virtio.md)
@@ -14,7 +14,6 @@
 
 - TrustedFirmware.org Projects
 
-    - [TrustedFirmware.org (root)](https://www.trustedfirmware.org/)
     - [TrustedFirmware.org Projects](https://github.com/malus-brandywine/malus-brandywine/blob/master/trusted-firmware/trusted-firmware.md)
 
 

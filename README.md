@@ -12,18 +12,10 @@
 
 </br>
 
-- Trusted Execution Environment
+- TrustedFirmware.org Projects
 
-    - [OP-TEE](https://github.com/malus-brandywine/malus-brandywine/blob/master/op-tee/op-tee.md)
-
-    - Arm Contributions
-
-        - [ATF](https://github.com/malus-brandywine/malus-brandywine/blob/master/atf/atf.md)
-
-        - [SCMI](https://github.com/malus-brandywine/malus-brandywine/blob/master/scmi/scmi.md)
-
-        - [PSCI](https://github.com/malus-brandywine/malus-brandywine/blob/master/psci/psci.md)
-
+    - [TrustedFirmware.org (root)](https://www.trustedfirmware.org/)
+    - [TrustedFirmware.org Projects](https://github.com/malus-brandywine/malus-brandywine/blob/master/trusted-firmware/trusted-firmware.md)
 
 
 </br>

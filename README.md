@@ -39,6 +39,7 @@
 - Automotive Domain
 
     - [Car Connectivity Consortium](https://carconnectivity.org/)
+    - [Automotive Platform Design (Arm)](https://developer.arm.com/architectures/platform-design/automotive)
 
 </br>
 </br>

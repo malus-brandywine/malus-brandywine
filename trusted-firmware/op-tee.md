@@ -2,10 +2,6 @@
 
 </br>
 
-- [OP-TEE current owners - TrustedFirmware.org](https://www.trustedfirmware.org/) 
-
-</br>
-
 
 - [OP-TEE home](https://www.op-tee.org/)
 - [OP-TEE documentattion](https://optee.readthedocs.io/en/latest/)

@@ -25,6 +25,8 @@ Trustzone
 - [Trustzone Technology](https://developer.arm.com/ip-products/security-ip/trustzone)
 - [TrustZone for AArch64 Guide](https://developer.arm.com/documentation/102418/0100)
 
+- Note. Arm terminology: TrustZone-based hw isolation + trusted boot + trusted OS = TEE
+
 
 </br>
 

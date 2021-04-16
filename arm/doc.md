@@ -20,12 +20,27 @@ Boot Requirements Docs
 
 </br>
 
+- [Architecture Security Features (start page)](https://developer.arm.com/architectures/architecture-security-features)
+
+</br>
+
+- [Arm Platform Security (root)](https://developer.arm.com/architectures/architecture-security-features/platform-security)
+    - [Security Model (download .pdf)](https://developer.arm.com/-/media/Files/pdf/PlatformSecurityArchitecture/Architect/DEN0079_PSA_SM_ALPHA-03_RC01.pdf?revision=2c567adf-c6e3-432b-90f7-b0f5358c43ec&la=en&hash=E9FA82FE5A0156E32190F739BB5F8FDD64C19C79)
+    - [Platform Security Boot Guide](https://developer.arm.com/documentation/den0072/latest/)
+    - [Platform Security Requirements](https://developer.arm.com/documentation/den0106/latest/)
+    - [Arm Firmware Framework for Armv8-A](https://developer.arm.com/documentation/den0077/latest)
+    - [Trusted Base System Architecture for Armv8-A](https://developer.arm.com/documentation/den0021/latest/)
+    - [Isolation using virtualization in the Secure world (download .pdf)](https://developer.arm.com/-/media/Files/pdf/Isolation_using_virtualization_in_the_Secure_World_Whitepaper.pdf?revision=23668ea4-3b8b-4095-b03e-7356fa6b1e69&la=en&hash=534D1D04207478F1CDE71CF7D56DEDFF4030E8E0)
+
+</br>
+
+
 Trustzone
 
 - [Trustzone Technology](https://developer.arm.com/ip-products/security-ip/trustzone)
 - [TrustZone for AArch64 Guide](https://developer.arm.com/documentation/102418/0100)
 
-- Note. Arm terminology: TrustZone-based hw isolation + trusted boot + trusted OS = TEE
+- Note. Terminology: TrustZone-based hw isolation + trusted boot + trusted OS = TEE
 
 
 </br>

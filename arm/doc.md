@@ -10,6 +10,8 @@
 
 </br>
 
+----
+
 Boot Requirements Docs
 
 | |||
@@ -19,6 +21,8 @@ Boot Requirements Docs
 |[Trusted Board Boot</br>Requirements</br>(TBBR) - Client](https://developer.arm.com/documentation/den0006/d/?lang=en)|||
 
 </br>
+
+----
 
 - [Architecture Security Features (start page)](https://developer.arm.com/architectures/architecture-security-features)
 
@@ -35,6 +39,12 @@ Boot Requirements Docs
 </br>
 
 
+Arm SystemReady Certification
+
+- [Arm SystemReady Overview](https://developer.arm.com/architectures/system-architectures/arm-systemready)
+
+----
+
 Trustzone
 
 - [Trustzone Technology](https://developer.arm.com/ip-products/security-ip/trustzone)
@@ -44,8 +54,4 @@ Trustzone
 
 
 </br>
-
-Arm SystemReady Certification
-
-- [Arm SystemReady Overview](https://developer.arm.com/architectures/system-architectures/arm-systemready)
 

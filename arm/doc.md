@@ -65,5 +65,11 @@ Cortex-R Profile
 
 </br>
 
+- [Article on "Safety Island" with Cortex-R](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/new-arm-cortex-r52-enables-autonomous-systems-with-the-highest-functional-safety-standards)
+- [Article on "Safety Island" @ Siemens Engineering](https://semiengineering.com/safety-islands-in-safety-critical-hardware/)
+- [Arm presentation on functional safety systems](https://www.slideshare.net/ARMHoldings/developing-functional-safety-systems-with-arm-architecture-solutions-stroud)
+
+</br>
+
 
 

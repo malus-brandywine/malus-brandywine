@@ -60,6 +60,7 @@ Trustzone
 Cortex-R Profile
 
 - [R-Profile Architectures](https://developer.arm.com/architectures/cpu-architecture/r-profile)
+- [ARM Architecture Reference Manual ARMv7-A and ARMv7-R edition](https://developer.arm.com/documentation/ddi0406/cd)
 - [R-Profile Architecture Specifications](https://developer.arm.com/architectures/cpu-architecture/r-profile/docs)
 - [Arm Cortex-R series processors](https://developer.arm.com/ip-products/processors/cortex-r)
 

@@ -55,3 +55,15 @@ Trustzone
 
 </br>
 
+----
+
+Cortex-R Profile
+
+- [R-Profile Architectures](https://developer.arm.com/architectures/cpu-architecture/r-profile)
+- [R-Profile Architecture Specifications](https://developer.arm.com/architectures/cpu-architecture/r-profile/docs)
+- [Arm Cortex-R series processors](https://developer.arm.com/ip-products/processors/cortex-r)
+
+</br>
+
+
+

@@ -41,6 +41,7 @@
     - [Automotive Platform Design (Arm)](https://developer.arm.com/architectures/platform-design/automotive)
     - [Automotive Whitepapers in Xen Project Docs](https://wiki.xenproject.org/wiki/Automotive_Whitepapers)
     - [GlobalLogic Demo: Xen on Nautilus platform](https://www.globallogic.com/wp-content/uploads/2016/12/GlobalLogic-Nautilus-Platform.pdf)
+    - [Safety Island implemented in ADAS reference SoC and sw stack by DreamChip Technologies (youtube)](https://www.youtube.com/watch?v=F591wt8K_qw)
 
 </br>
 </br>

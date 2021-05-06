@@ -39,6 +39,7 @@ Functional Safety
 Safety Standards
 
 - [What Is ISO 26262? (by Perforce)](https://www.perforce.com/blog/qac/what-is-iso-26262)
+- [How Automotive Hypervisor Enables Innovation and Compliance (by Perforce)](https://www.perforce.com/blog/qac/how-automotive-hypervisors-enable-innovation-compliance)
 
 </br>
 

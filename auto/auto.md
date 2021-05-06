@@ -11,7 +11,18 @@ Automotive Links
 
 </br>
 
+Functional Safety
+
+- [Enhancing Time-critical Automotive Designs with Arm Cortex-R52+](https://www.arm.com/blogs/blueprint/automotive-cortex-r)
+- [Article on "Safety Island" with Cortex-R](https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/new-arm-cortex-r52-enables-autonomous-systems-with-the-highest-functional-safety-standards)
+
+</br>
+
+- [Article on "Safety Island" @ Siemens Engineering](https://semiengineering.com/safety-islands-in-safety-critical-hardware/)
 - [Safety Island implemented in ADAS reference SoC and sw stack by DreamChip Technologies (youtube)](https://www.youtube.com/watch?v=F591wt8K_qw)
+- [Arm presentation on functional safety systems](https://www.slideshare.net/ARMHoldings/developing-functional-safety-systems-with-arm-architecture-solutions-stroud)
+
+
 - [Mixed-critical adaptive AUTOSAR stack based on VxWorks, Linux, and virtualization (slides)](https://www.slideshare.net/AndreiKholodnyi/mixedcritical-adaptive-autosar-stack-based-on-vxworks-linux-and-virtualization)
 - [AutoSAR stack on TI Jacinto7 SoC](https://www.ti.com/lit/ml/slyp698/slyp698.pdf?ts=1620232685015&ref_url=https%253A%252F%252Fwww.google.com%252F)
 

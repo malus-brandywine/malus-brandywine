@@ -36,5 +36,11 @@ Functional Safety
 
 </br>
 
+Safety Standards
+
+- [What Is ISO 26262? (by Perforce)](https://www.perforce.com/blog/qac/what-is-iso-26262)
+
+</br>
+
 Misc
 - [Quick sketch on avail. on Functional Safety guidelines (Arm page)](https://www.arm.com/why-arm/technologies/safety)

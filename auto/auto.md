@@ -45,3 +45,4 @@ Safety Standards
 
 Misc
 - [Quick sketch on avail. on Functional Safety guidelines (Arm page)](https://www.arm.com/why-arm/technologies/safety)
+- [Arteris IP Resources](https://www.arteris.com/resources)

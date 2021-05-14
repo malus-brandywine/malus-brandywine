@@ -3,6 +3,7 @@
 </br>
 
 - [Arm Developer Site (root)](https://developer.arm.com/)
+- ["Learn the architecture" (introductions)](https://developer.arm.com/architectures/learn-the-architecture)
 
 </br>
 

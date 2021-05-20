@@ -42,3 +42,18 @@ Safety Standards
 Misc
 - [Quick sketch on avail. on Functional Safety guidelines (Arm page)](https://www.arm.com/why-arm/technologies/safety)
 - [Arteris IP Resources](https://www.arteris.com/resources)
+
+</br>
+
+SoA in Automotive
+
+- [SoA (from GuardKnox)](https://www.guardknox.com/service-oriented-architecture/)
+- [Automotive zonal architecture (from GuardKnox)](https://www.guardknox.com/automotive-zonal-architecture/)
+- [SoA (article from Vector)](https://assets.vector.com/cms/content/know-how/_technical-articles/PREEvision/PREEvision_SOA_Ethernet_ElektronikAutomotive_201703_PressArticle_EN.pdf)
+- [An Overview of Automotive Service-Oriented Architectures and Implications for Security Countermeasures](https://www.researchgate.net/publication/347178480_An_Overview_of_Automotive_Service-Oriented_Architectures_and_Implications_for_Security_Countermeasures)
+
+
+
+
+
+

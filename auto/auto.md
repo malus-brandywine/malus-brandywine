@@ -21,12 +21,8 @@ Functional Safety
 
 - [Article on "Safety Island" @ Siemens Engineering](https://semiengineering.com/safety-islands-in-safety-critical-hardware/)
 - [Safety Island implemented in ADAS reference SoC and sw stack by DreamChip Technologies (youtube)](https://www.youtube.com/watch?v=F591wt8K_qw)
-
 - [Certification in Automotive, Cadence+Arm presentation, pdf](https://www.cadence.com/content/dam/cadence-www/global/en_US/documents/company/Events/CadenceIsrael%20-%20Developing%20automotive%20systems%20with%20functional%20safety_MD_07_19_18_FINAL_post.pdf)
-
 - [Mixed-critical adaptive AUTOSAR stack based on VxWorks, Linux, and virtualization (slides)](https://www.slideshare.net/AndreiKholodnyi/mixedcritical-adaptive-autosar-stack-based-on-vxworks-linux-and-virtualization)
-
-
 - [Optimizing your automotive system with Jacinto™ 7 ... (2020)](https://www.ti.com/lit/ml/slyp698/slyp698.pdf?ts=1620232685015&ref_url=https%253A%252F%252Fwww.google.com%252F), SW stack included
 - [Jacinto™ 7 SoC and PMIC functional safety (2020)](https://www.ti.com/lit/ml/slyp686/slyp686.pdf?ts=1620338196283&ref_url=https%253A%252F%252Fwww.google.com%252F),  SW stack included
 

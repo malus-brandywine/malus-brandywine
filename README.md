@@ -26,6 +26,10 @@
 
 </br>
 
+- [Gunyah Hypervisor](https://github.com/malus-brandywine/malus-brandywine/blob/master/gunyah/gunyah.md)
+
+</br>
+
 - [Ultra96V2](https://github.com/malus-brandywine/malus-brandywine/blob/master/Ultra96V2/Ultra96V2.md)
 
 </br>
@@ -39,6 +43,7 @@
 </br>
 
 #### How it was done
+(reminder for myself)
 
 Setting up RPi4 network boot for laboratory project
 (aarch64, Alpine Linux)

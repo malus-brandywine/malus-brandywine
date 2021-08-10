@@ -26,6 +26,10 @@
 
 </br>
 
+- [Sel4](https://github.com/malus-brandywine/malus-brandywine/blob/master/sel4/sel4.md)
+
+</br>
+
 - [Gunyah Hypervisor](https://github.com/malus-brandywine/malus-brandywine/blob/master/gunyah/gunyah.md)
 
 </br>

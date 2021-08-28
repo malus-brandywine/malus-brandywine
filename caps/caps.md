@@ -3,5 +3,5 @@
 Capability-based systems
 
 
-- [Capability-Based Computer Systems](https://homes.cs.washington.edu/~levy/capabook/)
+- [Book (pdf) "Capability-Based Computer Systems", Henry M Levy, 1984](https://homes.cs.washington.edu/~levy/capabook/)
 - 

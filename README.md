@@ -15,7 +15,7 @@
 </br>
 
 - [Sel4](https://github.com/malus-brandywine/malus-brandywine/blob/master/sel4/sel4.md)
-- [Capability-based Systems](https://github.com/malus-brandywine/malus-brandywine/blob/master/caps/caps.md)
+- [Capability-based Systems (Whitepapers, Books)](https://github.com/malus-brandywine/malus-brandywine/blob/master/caps/caps.md)
 - [Gunyah Hypervisor](https://github.com/malus-brandywine/malus-brandywine/blob/master/gunyah/gunyah.md)
     - [Tools](https://github.com/malus-brandywine/malus-brandywine/blob/master/tools/tools.md)
 

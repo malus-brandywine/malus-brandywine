@@ -28,7 +28,9 @@
 - [Global Platform](https://github.com/malus-brandywine/malus-brandywine/blob/master/global-platform/global-platform.md)
 - [Automotive Domain](https://github.com/malus-brandywine/malus-brandywine/blob/master/auto/auto.md)
 
+</br>
 
+- [Misc](https://github.com/malus-brandywine/malus-brandywine/blob/master/misc/misc.md)
 
 
 

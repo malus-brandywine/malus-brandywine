@@ -1,33 +1,34 @@
 ### Welcome!
 
-</br>
-
 
 #### Collection of Bookmarks on the Topics
-</br>
 
-- [Sel4](https://github.com/malus-brandywine/malus-brandywine/blob/master/sel4/sel4.md)
-- [Capability-based Systems (Whitepapers, Books)](https://github.com/malus-brandywine/malus-brandywine/blob/master/caps/caps.md)
+
+##### seL4
+
+- [seL4 home](https://sel4.systems/)
+- [D. Elkaduwe, P. Derrin, K. Elphinstone "A Memory Allocation Model For An Embedded Microkernel"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_07.pdf)
+- [D. Elkaduwe, P. Derrin, K. Elphinstone "Kernel Design for Isolation and Assurance of Physical
+Memory"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_08.pdf)
+- [Book (pdf) "Capability-Based Computer Systems", Henry M Levy, 1984](https://homes.cs.washington.edu/~levy/capabook/)
+- [Gernot Heiser‘s blog](https://microkerneldude.wordpress.com/)
+    - [What and why ... (goals of the Foundation)](https://microkerneldude.wordpress.com/2020/04/07/the-sel4-foundation-what-and-why/)
+    - [How to (and how not to) use seL4 IPC](https://microkerneldude.wordpress.com/2019/03/07/how-to-and-how-not-to-use-sel4-ipc/)
+
+##### Other
+
 - [Gunyah Hypervisor](https://github.com/malus-brandywine/malus-brandywine/blob/master/gunyah/gunyah.md)
 
-
-</br>
-
-- [VirtIO](https://github.com/malus-brandywine/malus-brandywine/blob/master/virtio/virtio.md)
+<!--- - [VirtIO](https://github.com/malus-brandywine/malus-brandywine/blob/master/virtio/virtio.md) --->
 - [OpenAMP](https://github.com/malus-brandywine/malus-brandywine/blob/master/OpenAMP/OpenAMP.md)
-</br>
 
 - [TrustedFirmware.org](https://github.com/malus-brandywine/malus-brandywine/blob/master/trusted-firmware/trusted-firmware.md)
 - [Arm Doc Fest - quick links on Arm documentation](https://github.com/malus-brandywine/malus-brandywine/blob/master/arm/doc.md)
-</br>
-
 
 - [Global Platform](https://github.com/malus-brandywine/malus-brandywine/blob/master/global-platform/global-platform.md)
 - [Automotive Domain](https://github.com/malus-brandywine/malus-brandywine/blob/master/auto/auto.md)
-</br>
 
 - [Ultra96V2](https://github.com/malus-brandywine/malus-brandywine/blob/master/Ultra96V2/Ultra96V2.md)
-</br>
 
 - [Misc](https://github.com/malus-brandywine/malus-brandywine/blob/master/misc/misc.md)
 

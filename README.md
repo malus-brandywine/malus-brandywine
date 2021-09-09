@@ -13,9 +13,6 @@
 
 </br>
 
-- [Ultra96V2](https://github.com/malus-brandywine/malus-brandywine/blob/master/Ultra96V2/Ultra96V2.md)
-</br>
-
 - [VirtIO](https://github.com/malus-brandywine/malus-brandywine/blob/master/virtio/virtio.md)
 - [OpenAMP](https://github.com/malus-brandywine/malus-brandywine/blob/master/OpenAMP/OpenAMP.md)
 </br>
@@ -27,7 +24,9 @@
 
 - [Global Platform](https://github.com/malus-brandywine/malus-brandywine/blob/master/global-platform/global-platform.md)
 - [Automotive Domain](https://github.com/malus-brandywine/malus-brandywine/blob/master/auto/auto.md)
+</br>
 
+- [Ultra96V2](https://github.com/malus-brandywine/malus-brandywine/blob/master/Ultra96V2/Ultra96V2.md)
 </br>
 
 - [Misc](https://github.com/malus-brandywine/malus-brandywine/blob/master/misc/misc.md)

@@ -15,6 +15,9 @@ Memory"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_08.pdf)
 - [Gernot Heiser‘s blog](https://microkerneldude.wordpress.com/)
     - [What and why ... (goals of the Foundation)](https://microkerneldude.wordpress.com/2020/04/07/the-sel4-foundation-what-and-why/)
     - [How to (and how not to) use seL4 IPC](https://microkerneldude.wordpress.com/2019/03/07/how-to-and-how-not-to-use-sel4-ipc/)
+<br>
+
+- [John Rushby, "Partitioning in Avionics Architectures: Requirements, Mechanisms, and Assurance"](http://www.tc.faa.gov/its/worldpac/techrpt/ar99-58.pdf)
 
 ##### Other
 

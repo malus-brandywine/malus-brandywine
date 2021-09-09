@@ -10,7 +10,8 @@
 - [D. Elkaduwe, P. Derrin, K. Elphinstone "A Memory Allocation Model For An Embedded Microkernel"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_07.pdf)
 - [D. Elkaduwe, P. Derrin, K. Elphinstone "Kernel Design for Isolation and Assurance of Physical
 Memory"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_08.pdf)
-- [Book (pdf) "Capability-Based Computer Systems", Henry M Levy, 1984](https://homes.cs.washington.edu/~levy/capabook/)
+- [Henry M. Levy "Capability-Based Computer Systems", 1984 (complete book, pdf) ](https://homes.cs.washington.edu/~levy/capabook/)
+- [M.V. Wilkes, R. M. Needham "The Cambridge CAP Computer and Its Operating System"](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.85.4820&rep=rep1&type=pdf)
 - [Gernot Heiser‘s blog](https://microkerneldude.wordpress.com/)
     - [What and why ... (goals of the Foundation)](https://microkerneldude.wordpress.com/2020/04/07/the-sel4-foundation-what-and-why/)
     - [How to (and how not to) use seL4 IPC](https://microkerneldude.wordpress.com/2019/03/07/how-to-and-how-not-to-use-sel4-ipc/)

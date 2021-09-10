@@ -21,7 +21,7 @@ Memory"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_08.pdf)
 
 ##### Other
 
-- [Gunyah Hypervisor](https://github.com/malus-brandywine/malus-brandywine/blob/master/gunyah/gunyah.md)
+<!--- - [Gunyah Hypervisor](https://github.com/malus-brandywine/malus-brandywine/blob/master/gunyah/gunyah.md) --->
 
 <!--- - [VirtIO](https://github.com/malus-brandywine/malus-brandywine/blob/master/virtio/virtio.md) --->
 - [OpenAMP](https://github.com/malus-brandywine/malus-brandywine/blob/master/OpenAMP/OpenAMP.md)

@@ -7,6 +7,9 @@
 ##### seL4
 
 - [seL4 home](https://sel4.systems/)
+    - [Discourse group](https://sel4.discourse.group/)
+    - [Devel Mailing List](https://lists.sel4.systems/hyperkitty/list/devel@sel4.systems/)
+    - [Announce Mailing List](https://lists.sel4.systems/hyperkitty/list/announce@sel4.systems/)
 - [D. Elkaduwe, P. Derrin, K. Elphinstone "A Memory Allocation Model For An Embedded Microkernel"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_07.pdf)
 - [D. Elkaduwe, P. Derrin, K. Elphinstone "Kernel Design for Isolation and Assurance of Physical
 Memory"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_08.pdf)

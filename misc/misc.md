@@ -1,4 +1,10 @@
 
+#### To explore
+
+- [RT-Thread IoT OS](https://www.rt-thread.io/)
+</br>
+
+
 #### How it was done
 (reminder for myself)
 

@@ -37,6 +37,8 @@ Memory"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_08.pdf)
 
 - [Ultra96V2](https://github.com/malus-brandywine/malus-brandywine/blob/master/Ultra96V2/Ultra96V2.md)
 
+- [Misc Tools](https://github.com/malus-brandywine/malus-brandywine/blob/master/tools/tools.md)
+
 - [Misc](https://github.com/malus-brandywine/malus-brandywine/blob/master/misc/misc.md)
 
 

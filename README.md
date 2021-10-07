@@ -10,6 +10,7 @@
     - [Discourse group](https://sel4.discourse.group/)
     - [Devel Mailing List](https://lists.sel4.systems/hyperkitty/list/devel@sel4.systems/)
     - [Announce Mailing List](https://lists.sel4.systems/hyperkitty/list/announce@sel4.systems/)
+- [seL4 Introduction Whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf)
 - [camkes lengthy tutorial](https://github.com/seL4/camkes-tool/blob/master/docs/index.md)
 - [D. Elkaduwe, P. Derrin, K. Elphinstone "A Memory Allocation Model For An Embedded Microkernel"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_07.pdf)
 - [D. Elkaduwe, P. Derrin, K. Elphinstone "Kernel Design for Isolation and Assurance of Physical

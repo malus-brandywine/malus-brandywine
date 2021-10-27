@@ -11,6 +11,7 @@
     - [Devel Mailing List](https://lists.sel4.systems/hyperkitty/list/devel@sel4.systems/)
     - [Announce Mailing List](https://lists.sel4.systems/hyperkitty/list/announce@sel4.systems/)
 - [seL4 Introduction Whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf)
+- [seL4 latest manual (pdf)](https://sel4.systems/Info/Docs/seL4-manual-latest.pdf)
 - [seL4 API (web)](https://docs.sel4.systems/projects/sel4/api-doc.html)
 - [camkes lengthy tutorial](https://github.com/seL4/camkes-tool/blob/master/docs/index.md)
 - [D. Elkaduwe, P. Derrin, K. Elphinstone "A Memory Allocation Model For An Embedded Microkernel"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_07.pdf)

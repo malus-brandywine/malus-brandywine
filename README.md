@@ -14,9 +14,9 @@
 - [seL4 latest manual (pdf)](https://sel4.systems/Info/Docs/seL4-manual-latest.pdf)
 - [seL4 API (web)](https://docs.sel4.systems/projects/sel4/api-doc.html)
 - [camkes lengthy tutorial](https://github.com/seL4/camkes-tool/blob/master/docs/index.md)
-- [D. Elkaduwe, P. Derrin, K. Elphinstone "A Memory Allocation Model For An Embedded Microkernel"](https://www.researchgate.net/publication/234806293_Kernel_design_for_isolation_and_assurance_of_physical_memory)
+- [not avail. for free anymore ~~D. Elkaduwe, P. Derrin, K. Elphinstone "A Memory Allocation Model For An Embedded Microkernel"~~]()
 - [D. Elkaduwe, P. Derrin, K. Elphinstone "Kernel Design for Isolation and Assurance of Physical
-Memory"](http://cgi.cse.unsw.edu.au/~kevine/pubs/Elkaduwe_DE_08.pdf)
+Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_isolation_and_assurance_of_physical_memory)
 - [UNSW lectures](https://www.cse.unsw.edu.au/~cs9242/21/lectures.shtml)
     - [Introduction: Microkernels and seL4](https://www.cse.unsw.edu.au/~cs9242/21/lectures/01a-intro.pdf)
     - [Introduction: Using seL4](https://www.cse.unsw.edu.au/~cs9242/21/lectures/01b-sel4.pdf)

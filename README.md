@@ -36,6 +36,10 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 - [seL4 Core Platform, RFC](https://sel4.atlassian.net/browse/RFC-5)
 
 
+##### Code
+
+- [Quick Links](https://github.com/malus-brandywine/malus-brandywine/blob/master/quicklinks/quicklinks.md)
+
 </br></br>
 
 ##### Other

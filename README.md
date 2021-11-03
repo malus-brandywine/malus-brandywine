@@ -29,6 +29,15 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 
 - [John Rushby, "Partitioning in Avionics Architectures: Requirements, Mechanisms, and Assurance"](http://www.tc.faa.gov/its/worldpac/techrpt/ar99-58.pdf)
 
+
+##### Around seL4
+
+- [seL4 Core Platform, github](https://github.com/BreakawayConsulting/sel4cp)
+- [seL4 Core Platform, RFC](https://sel4.atlassian.net/browse/RFC-5)
+
+
+</br></br>
+
 ##### Other
 
 <!--- - [Gunyah Hypervisor](https://github.com/malus-brandywine/malus-brandywine/blob/master/gunyah/gunyah.md) --->

@@ -15,3 +15,9 @@ Musl
 Repo Tool
 
 - [Repo Manual](https://source.android.com/setup/develop/repo)
+
+CMake
+
+- [Reference](https://cmake.org/cmake/help/v3.22/index.html)
+- [Tutorial (text)](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+- [Tutorial (code)](https://gitlab.kitware.com/cmake/cmake/-/tree/master/Help/guide/tutorial)

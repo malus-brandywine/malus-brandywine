@@ -31,6 +31,13 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 - [John Rushby, "Partitioning in Avionics Architectures: Requirements, Mechanisms, and Assurance"](http://www.tc.faa.gov/its/worldpac/techrpt/ar99-58.pdf)
 
 
+##### seL4 Benchmark
+
+- [Bernard Blackham, Gernot Heiser "Correct, fast, maintainable: choose any three!"](https://www.researchgate.net/publication/254463663_Correct_fast_maintainable_choose_any_three)
+- [Bernard Blackham "Towards Verified Microkernels for Real-Time Mixed-Criticality Systems"](https://unsworks.unsw.edu.au/fapi/datastream/unsworks:11615/SOURCE01?view=true)
+
+
+
 ##### Around seL4
 
 - [seL4 Core Platform, github](https://github.com/BreakawayConsulting/sel4cp)

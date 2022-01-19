@@ -37,6 +37,13 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 - [Bernard Blackham "Towards Verified Microkernels for Real-Time Mixed-Criticality Systems"](https://unsworks.unsw.edu.au/fapi/datastream/unsworks:11615/SOURCE01?view=true)
 
 
+###### tmp links to benchmark doc
+
+   - [seL4bench project](https://docs.sel4.systems/projects/sel4bench/)
+   - [project status](https://docs.sel4.systems/projects/sel4bench/status)
+   - [benchmarking guide](https://docs.sel4.systems/projects/sel4-tutorials/benchmarking-guide.html)
+   - [benchmark system calls (web)](https://docs.sel4.systems/projects/sel4/api-doc.html#benchmarking-system-calls)
+
 
 ##### Around seL4
 

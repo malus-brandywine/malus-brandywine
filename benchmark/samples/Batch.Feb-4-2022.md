@@ -19,3 +19,5 @@ into an array, but instead, in every measurement loop it:
     - re-visits current Minimum and Maximum
     - accumulates Sample and squared Sample
 
+- [Data on Sabre, Armv7 pdf](https://github.com/malus-brandywine/malus-brandywine/blob/master/benchmark/samples/SabreArmv7-Data-02042022.pdf)
+- [Data on tx1, Armv8 pdf](https://github.com/malus-brandywine/malus-brandywine/blob/master/benchmark/samples/tx1Armv8-Data-02042022.pdf)

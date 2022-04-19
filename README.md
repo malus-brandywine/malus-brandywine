@@ -15,6 +15,7 @@
 - [seL4 Introduction Whitepaper](https://sel4.systems/About/seL4-whitepaper.pdf)
 - [seL4 latest manual (pdf)](https://sel4.systems/Info/Docs/seL4-manual-latest.pdf)
 - [seL4 API (web)](https://docs.sel4.systems/projects/sel4/api-doc.html)
+- [seL4 Jira](https://sel4.atlassian.net/jira/projects)
 - [camkes lengthy tutorial](https://github.com/seL4/camkes-tool/blob/master/docs/index.md)
 - [not avail. for free anymore ~~D. Elkaduwe, P. Derrin, K. Elphinstone "A Memory Allocation Model For An Embedded Microkernel"~~]()
 - [D. Elkaduwe, P. Derrin, K. Elphinstone "Kernel Design for Isolation and Assurance of Physical

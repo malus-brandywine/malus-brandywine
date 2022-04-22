@@ -66,6 +66,7 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 ##### Microarchitecture Topics
 
    - ["Stale data, or how we (mis-)manage modern caches" Mark Rutland, Embedded Linux Conference 2016 ](http://events17.linuxfoundation.org/sites/events/files/slides/slides_17.pdf)
+   - ["Cache Where you Want! Reconciling Predictability and Coherent Caching", white paper](https://arxiv.org/pdf/1909.05349.pdf)
 
 
 </br></br>

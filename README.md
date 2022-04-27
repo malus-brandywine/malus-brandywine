@@ -68,6 +68,7 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - ["Stale data, or how we (mis-)manage modern caches" Mark Rutland, Embedded Linux Conference 2016 ](http://events17.linuxfoundation.org/sites/events/files/slides/slides_17.pdf)
    - ["Cache Where you Want! Reconciling Predictability and Coherent Caching", white paper](https://arxiv.org/pdf/1909.05349.pdf)
    - [Q&A "Transient"](https://stackoverflow.com/questions/38636326/concept-and-advantages-of-transient-and-non-transient-memory-in-arm#comment64661366_38636326)
+   - [Cache Notes (list)](https://github.com/malus-brandywine/malus-brandywine/blob/master/cache-notes/cache-notes.md)
 
 
 </br></br>

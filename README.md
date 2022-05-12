@@ -93,6 +93,11 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [Compiler Internals Lecture by IIT Bombay [Part 1]](https://www.youtube.com/watch?v=IlovhbAI7Cw&list=PLy-CGmBdq2VGjl56cyaEjxcAMyAvUKbCz)
    - [GNU Tools Cauldron, youtube video](https://www.youtube.com/channel/UCQ4JGczdlU3ofHWf3NuCX8g/featured)
 
+</br>
+
+   - [LLVM Compiler Infrastructure documentation](https://llvm.org/docs/)
+   - [LLVM YouTube channel](https://www.youtube.com/channel/UCv2_41bSAa5Y_8BacJUZfjQ)
+
 
 
 </br></br>

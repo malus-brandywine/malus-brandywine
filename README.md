@@ -86,6 +86,14 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 
    - [Toolchains](https://elinux.org/Toolchains)
    - [How Initialization Functions Are Handled](https://gcc.gnu.org/onlinedocs/gccint/Initialization.html)
+   - [GCC online documentation](https://gcc.gnu.org/onlinedocs/)
+   - [GCC Resource Center](https://www.cse.iitb.ac.in/grc/)
+   - [Essential Abstractions in GCC](https://www.cse.iitb.ac.in/grc/index.php?page=gcc-pldi14-tut)
+   - [Videos of Lectures on Essential Abstractions in GCC -2012](https://www.cse.iitb.ac.in/grc/index.php?page=videos)
+   - [Compiler Internals Lecture by IIT Bombay [Part 1]](https://www.youtube.com/watch?v=IlovhbAI7Cw&list=PLy-CGmBdq2VGjl56cyaEjxcAMyAvUKbCz)
+   - [GNU Tools Cauldron, youtube video](https://www.youtube.com/channel/UCQ4JGczdlU3ofHWf3NuCX8g/featured)
+
+
 
 </br></br>
 

@@ -98,6 +98,10 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [LLVM Compiler Infrastructure documentation](https://llvm.org/docs/)
    - [LLVM YouTube channel](https://www.youtube.com/channel/UCv2_41bSAa5Y_8BacJUZfjQ)
 
+</br>
+
+   - [perf](https://perf.wiki.kernel.org/index.php/Main_Page)
+   - [create_gcov](https://github.com/google/autofdo)
 
 
 </br></br>

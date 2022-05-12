@@ -63,7 +63,7 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 - [Quick Links](https://github.com/malus-brandywine/malus-brandywine/blob/master/quicklinks/quicklinks.md)
 
 
-##### Microarchitecture Topics
+#### Microarchitecture Topics
 
    - ["Stale data, or how we (mis-)manage modern caches" Mark Rutland, Embedded Linux Conference 2016 ](http://events17.linuxfoundation.org/sites/events/files/slides/slides_17.pdf)
    - ["Cache Where you Want! Reconciling Predictability and Coherent Caching", white paper](https://arxiv.org/pdf/1909.05349.pdf)
@@ -81,8 +81,16 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 
 </br></br>
 
+#### Toolchain
+(from RISC-V Toolchain and Compiler Optimization Techniques)
 
-##### Other
+   - [Toolchains](https://elinux.org/Toolchains)
+   - [How Initialization Functions Are Handled](https://gcc.gnu.org/onlinedocs/gccint/Initialization.html)
+
+</br></br>
+
+
+#### Other
 
 
 <!--- - [Gunyah Hypervisor](https://github.com/malus-brandywine/malus-brandywine/blob/master/gunyah/gunyah.md) --->

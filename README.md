@@ -105,6 +105,10 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [Bloaty, github](https://github.com/google/bloaty)
    - [Binutils Main page](https://www.gnu.org/software/binutils/)
 
+</br>
+
+   - ["Code Size Compiler Optimizations and Techniques for Embedded Systems", Youtube](https://www.youtube.com/watch?v=6IuDWfuMEno)
+
 
 </br></br>
 

@@ -104,6 +104,9 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [create_gcov](https://github.com/google/autofdo)
    - [Bloaty, github](https://github.com/google/bloaty)
    - [Binutils Main page](https://www.gnu.org/software/binutils/)
+   - [-finstrument-functions, article 1](https://fekir.info/post/tracing-with-gcc/)
+   - [-finstrument-functions, article 2](https://www.valtrix.in/programming/a-lightweight-function-profiler)
+   - [-fstack-protector](https://www.keil.com/support/man/docs/armclang_ref/armclang_ref_cjh1548250046139.htm)
 
 </br>
 

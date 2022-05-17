@@ -111,6 +111,9 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 </br>
 
    - ["Code Size Compiler Optimizations and Techniques for Embedded Systems", Youtube](https://www.youtube.com/watch?v=6IuDWfuMEno)
+   - constexpr
+   - [big+little configuration, Arm](https://www.arm.com/why-arm/technologies/big-little)
+   - [dynamic voltage and frequency scaling](https://en.wikipedia.org/wiki/Dynamic_frequency_scaling)
 
 
 </br></br>

@@ -106,14 +106,20 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [Binutils Main page](https://www.gnu.org/software/binutils/)
    - [-finstrument-functions, article 1](https://fekir.info/post/tracing-with-gcc/)
    - [-finstrument-functions, article 2](https://www.valtrix.in/programming/a-lightweight-function-profiler)
+   - [GCC Instrument functions, article 3](https://developercommunity.visualstudio.com/t/192628900-pragma-optimize-off-is-not-working-as-ex/1091452)
    - [-fstack-protector](https://www.keil.com/support/man/docs/armclang_ref/armclang_ref_cjh1548250046139.htm)
 
 </br>
 
    - ["Code Size Compiler Optimizations and Techniques for Embedded Systems", Youtube](https://www.youtube.com/watch?v=6IuDWfuMEno)
+   - ["Performance analysis and optimization of C++ standard libraries", Youtube](https://www.youtube.com/watch?v=OTCp_AkAyRQ)
    - constexpr
    - [big+little configuration, Arm](https://www.arm.com/why-arm/technologies/big-little)
    - [dynamic voltage and frequency scaling](https://en.wikipedia.org/wiki/Dynamic_frequency_scaling)
+   - [Nitin Kumar - Profile-guided optimization (PGO) using GCC on IBM AIX](https://developer.ibm.com/articles/gcc-profile-guided-optimization-to-accelerate-aix-applications/)
+   - [Vinodha Ramasamy, Paul Yuan, Dehao Chen, Robert Hundt - Feedback-Directed Optimizations in GCC with Estimated Edge Profiles from Hardware Event Sampling](https://research.google/pubs/pub36576/)
+
+
 
 
 </br></br>

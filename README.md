@@ -111,6 +111,7 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [RISC-V github](https://github.com/riscv-software-src)
    - [RISC-V simulator](https://github.com/riscv-software-src/riscv-isa-sim)
    - [RISC-V proxy kernel pk](https://github.com/riscv-software-src/riscv-pk)
+   - [Running 64- and 32-bit RISC-V Linux on QEMU](https://risc-v-getting-started-guide.readthedocs.io/en/latest/linux-qemu.html)
 
 </br>
 
@@ -133,7 +134,13 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [Nitin Kumar - Profile-guided optimization (PGO) using GCC on IBM AIX](https://developer.ibm.com/articles/gcc-profile-guided-optimization-to-accelerate-aix-applications/)
    - [Vinodha Ramasamy, Paul Yuan, Dehao Chen, Robert Hundt - Feedback-Directed Optimizations in GCC with Estimated Edge Profiles from Hardware Event Sampling](https://research.google/pubs/pub36576/)
 
+</br>
 
+   - [RISC-V Software Collaboration](https://github.com/riscv-collab)
+   - [sifive/freedom-tools](https://github.com/sifive/freedom-tools/releases)
+   - [lowRISC](https://github.com/lowRISC)
+   - [stnolting/riscv-gcc-prebuilt](https://github.com/stnolting/riscv-gcc-prebuilt)
+   - [SiFive/Software](https://www.sifive.com/software)
 
 
 </br></br>

@@ -97,6 +97,7 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 
    - [GNU toolchain github](https://github.com/riscv-collab/riscv-gcc)
    - [GNU toolchain binaries](https://github.com/riscv-collab/riscv-gnu-toolchain)
+   - [misc: cross tools naming convention](http://web.eecs.umich.edu/~prabal/teaching/eecs373-f12/notes/notes-toolchain.pdf)
 
 </br>
 

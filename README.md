@@ -98,6 +98,7 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [GNU toolchain github](https://github.com/riscv-collab/riscv-gcc)
    - [GNU toolchain binaries](https://github.com/riscv-collab/riscv-gnu-toolchain)
    - [misc: cross tools naming convention](http://web.eecs.umich.edu/~prabal/teaching/eecs373-f12/notes/notes-toolchain.pdf)
+   - [misc: 64-bit data models](https://en.wikipedia.org/wiki/64-bit_computing#64-bit_data_models)
 
 </br>
 
@@ -107,7 +108,9 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 
 </br>
 
+   - [RISC-V github](https://github.com/riscv-software-src)
    - [RISC-V simulator](https://github.com/riscv-software-src/riscv-isa-sim)
+   - [RISC-V proxy kernel pk](https://github.com/riscv-software-src/riscv-pk)
 
 </br>
 

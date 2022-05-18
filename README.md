@@ -95,8 +95,18 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 
 </br>
 
+   - [GNU toolchain github](https://github.com/riscv-collab/riscv-gcc)
+   - [GNU toolchain binaries](https://github.com/riscv-collab/riscv-gnu-toolchain)
+
+</br>
+
+   - [LLVM github](https://github.com/llvm/llvm-project)
    - [LLVM Compiler Infrastructure documentation](https://llvm.org/docs/)
    - [LLVM YouTube channel](https://www.youtube.com/channel/UCv2_41bSAa5Y_8BacJUZfjQ)
+
+</br>
+
+   - [RISC-V simulator](https://github.com/riscv-software-src/riscv-isa-sim)
 
 </br>
 

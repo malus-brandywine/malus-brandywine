@@ -142,6 +142,12 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [stnolting/riscv-gcc-prebuilt](https://github.com/stnolting/riscv-gcc-prebuilt)
    - [SiFive/Software](https://www.sifive.com/software)
 
+</br>
+
+   - [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
+   - [Defensive Programming](https://en.wikipedia.org/wiki/Defensive_programming)
+   - [Programming/Design by contract](https://en.wikipedia.org/wiki/Design_by_contract)
+
 
 </br></br>
 

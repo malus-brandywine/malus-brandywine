@@ -152,6 +152,15 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 
    - [sanitizers](https://github.com/google/sanitizers)
    - [Valgrind](https://valgrind.org/)
+   - [gdb doc](https://www.sourceware.org/gdb/documentation/)
+   - [Remote debugging with GDB](https://developers.redhat.com/blog/2015/04/28/remote-debugging-with-gdb)
+   - [gdbserver(1)](https://man7.org/linux/man-pages/man1/gdbserver.1.html)
+   - [riscv-binutils-gdb](https://github.com/riscv-collab/riscv-binutils-gdb)
+   - [Five EmbedDev - An Embedded RISC-V Blog](https://five-embeddev.com/riscv-debug-spec/latest/introduction.html#sec:intro)
+   - [Tim Newsome - RISC-V External Debug (aka JTAG debugging)](https://riscv.org/wp-content/uploads/2016/01/Tues1030-RISC-V-External-Debug.pdf)
+   - [Tim Newsome and Megan Wachs - RISC-V External Debug Support Version 0.13.2](https://riscv.org/wp-content/uploads/2019/03/riscv-debug-release.pdf)
+   - [Debugging with GDB](https://www.sourceware.org/gdb/current/onlinedocs/gdb.html)
+   - [Cornell University, CS312 Lecture 26, Debugging Techniques](https://www.cs.cornell.edu/courses/cs312/2006fa/lectures/lec26.html)
    
 
 </br></br>

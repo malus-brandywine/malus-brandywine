@@ -148,6 +148,11 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
    - [Defensive Programming](https://en.wikipedia.org/wiki/Defensive_programming)
    - [Programming/Design by contract](https://en.wikipedia.org/wiki/Design_by_contract)
 
+</br>
+
+   - [sanitizers](https://github.com/google/sanitizers)
+   - [Valgrind](https://valgrind.org/)
+   
 
 </br></br>
 

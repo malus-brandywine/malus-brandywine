@@ -62,6 +62,15 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 
 - [Quick Links](https://github.com/malus-brandywine/malus-brandywine/blob/master/quicklinks/quicklinks.md)
 
+</br></br>
+
+#### Systems Benchmarking
+
+   - ["Systems Benchmarking For Scientists and Engineers" S. Kounev, K.-D. Lange, J. von Kistowski, the book website](http://www.benchmarking-book.com/)
+
+
+</br></br>
+
 
 #### Microarchitecture Topics
 

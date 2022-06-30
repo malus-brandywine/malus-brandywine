@@ -32,6 +32,10 @@ Memory"](https://www.researchgate.net/publication/234806293_Kernel_design_for_is
 
 - [John Rushby, "Partitioning in Avionics Architectures: Requirements, Mechanisms, and Assurance"](http://www.tc.faa.gov/its/worldpac/techrpt/ar99-58.pdf)
 
+</br>
+
+- [TS publications](https://trustworthy.systems/publications/)
+
 
 ##### seL4 Benchmark
 

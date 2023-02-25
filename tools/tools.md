@@ -26,3 +26,9 @@ CMake
 Astyle
 
 - [Manual](http://astyle.sourceforge.net/astyle.html)
+
+</br>
+
+Useful Wiki
+
+- [The Thomas-Krenn-Wiki](https://www.thomas-krenn.com/en/wiki/Main_Page)

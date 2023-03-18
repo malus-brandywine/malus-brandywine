@@ -65,6 +65,14 @@ Cortex-R Profile
 - [R-Profile Architecture Specifications](https://developer.arm.com/architectures/cpu-architecture/r-profile/docs)
 - [Arm Cortex-R series processors](https://developer.arm.com/ip-products/processors/cortex-r)
 
+</br>
+
+----
+
+Extensions
+
+- [Arm Extensions names explained](https://developer.arm.com/documentation/ka005091/1-0)
+
 
 
 

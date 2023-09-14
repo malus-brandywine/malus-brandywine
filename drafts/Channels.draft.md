@@ -1,20 +1,26 @@
 ## Channels
 
-A *channel* enables two protection domains to interact using protected procedures or notifications.
-Each connects exactly two PDs; there are no multi-party channels.
+A *channel* enables two protection domains to interact with each other using protected procedures or notifications.
+Each one connects exactly two PDs; there are no multi-party channels.
 
-When a channel is created between two PDs, a *channel identifier* is configured for each PD.
-The *channel identifier* is used by the PD to reference the channel.
-Each PD can refer to the channel with a different identifier.
-For example if PDs **A** and **B** are connected by a channel, **A** may refer to the channel using an identifier of **37** while **B** may use **42** to refer to the same channel.
 
-**Note:** There is no way for a PD to directly refer to another PD in the system.
-PDs can only refer to other PDs indirectly if there is a channel between them.
-In this case, the channel identifier is effectively a proxy identifier for the other PD.
-So, to extend the prior example, **A** can indirectly refer to **B** via the channel identifier **37**.
-Similarly, **B** can refer to **A** via the channel identifier **42**.
+When we say a channel connects two PDs it means that each PD receives its **own** channel identifier
+with which the PD refers to the channel.
 
-The system supports a maximum of 63 channels and interrupts per protection domain.
+In practice it might look the following way: PDs **A** and **B** are connected with a channel **E**,
+a channel identifier that **A** uses for **E** may have a value **37** while **B**'s channel identifier for **E**  may be **42**.
+
+
+Channel identifier values are local to and unique inside PD protection space, so
+
+(1) an identifier takes a unique value from [0, 63] for the next channel the PD connects to -
+the system supports a maximum of 64 channels per PD,
+
+(2) there is no way for a PD to directly refer to another PD in the system, PDs can only refer to other PDs indirectly
+if there is a channel between them.
+
+Side comment: There's no system-wide identification of channels.
+
 
 ### Protected procedure
 

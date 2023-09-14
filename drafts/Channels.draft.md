@@ -8,12 +8,13 @@ When we say a channel connects two PDs it means that each PD receives its **own*
 with which the PD refers to the channel.
 
 In practice it might look the following way: PDs **A** and **B** are connected with a channel **E**,
-a channel identifier that **A** uses for **E** may have a value **37** while **B**'s channel identifier for **E**  may be **42**.
+a channel identifier that **A** uses for **E** may have a value **37** while **B**'s channel identifier for **E** 
+may have a value **42**.
 
 
-Channel identifier values are local to and unique inside PD protection space, so
+Channel identifier values are local to and unique inside a PD context, so
 
-(1) an identifier takes a unique value from [0, 63] for the next channel the PD connects to -
+(1) an identifier takes a unused value from [0, 63] for the next channel the PD connects to -
 the system supports a maximum of 64 channels per PD,
 
 (2) there is no way for a PD to directly refer to another PD in the system, PDs can only refer to other PDs indirectly

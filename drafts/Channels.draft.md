@@ -15,7 +15,8 @@ may have a value **42**.
 Channel identifier values are local to and unique inside a PD context, so
 
 (1) an identifier takes a unused value from [0, 63] for the next channel the PD connects to -
-the system supports a maximum of 64 channels per PD,
+the system supports a maximum of 64 channels per PD.
+Note: Interrupts (described later) also use channels and take values from the same pool.
 
 (2) there is no way for a PD to directly refer to another PD in the system, PDs can only refer to other PDs indirectly
 if there is a channel between them.

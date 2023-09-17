@@ -67,3 +67,5 @@ Unlike protected procedures, notifications can be sent in either direction on a 
 **Note:** Notifications provide a mechanism for synchronisation between PDs, however this is not a blocking operation.
 If a PD notifies another PD, that PD will become scheduled to run (if it is not already), but the current PD does **not** block.
 Of course, if the notified PD has a higher priority than the current PD, then the current PD will be preempted (but not blocked) by the other PD.
+
+![Example](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microbit.Channels.2.svg.72.png)

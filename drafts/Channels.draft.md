@@ -14,7 +14,7 @@ may have a value **42**.
 
 Channel identifier values are local to and unique inside a PD context, so
 
-(1) an identifier takes a unused value from [0, 63] for the next channel the PD connects to -
+(1) an identifier takes an unused value from [0, 63] for the next channel the PD connects to -
 the system supports a maximum of 64 channels per PD.
 Note: Interrupts (described later) also use channels and take values from the same pool.
 
@@ -68,4 +68,27 @@ Unlike protected procedures, notifications can be sent in either direction on a 
 If a PD notifies another PD, that PD will become scheduled to run (if it is not already), but the current PD does **not** block.
 Of course, if the notified PD has a higher priority than the current PD, then the current PD will be preempted (but not blocked) by the other PD.
 
-![Example](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microbit.Channels.2.svg.72.png)
+
+![Example1](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microbit.Channels.1.svg.72.png)
+
+Fig. Illustration of fundamentals: the use of a channel
+
+![Example2](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microbit.Channels.2.svg.72.png)
+
+Fig. Use of channels in more complex case
+
+### Interrupts
+
+Hardware interrupts can be used to notify a protection domain.
+The system description specifies if a protection domain receives notifications for any hardware interrupt sources.
+Each hardware interrupt is assigned a channel identifier.
+In this way the protection domain can distinguish the hardware interrupt from other notifications.
+A specific hardware interrupt can only be associated with at most one protection domain.
+
+Although interrupts are the final concept to be described here, they are in some ways the most important.
+Without interrupts a system would not do much after system initialisation.
+
+Microkit does not provides timers, nor any *sleep* API.
+After initialisation, activity in the system is initiated by an interrupt causing a `notified` entry point to be invoked.
+That notified function may in turn notify or call other protection domains that cause other system activity, but eventually all activity indirectly initiated from that interrupt will complete, at which point the system is inactive again until another interrupt occurs.
+

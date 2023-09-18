@@ -69,11 +69,11 @@ If a PD notifies another PD, that PD will become scheduled to run (if it is not 
 Of course, if the notified PD has a higher priority than the current PD, then the current PD will be preempted (but not blocked) by the other PD.
 
 
-![Example1](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microbit.Channels.1.svg.72.png)
+![Example1](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microkit.Channels.1.png)
 
 Fig. Illustration of fundamentals: the use of a channel
 
-![Example2](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microbit.Channels.2.svg.72.png)
+![Example2](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microkit.Channels.2.png)
 
 Fig. Use of channels in more complex case
 

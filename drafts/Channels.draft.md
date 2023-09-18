@@ -67,15 +67,11 @@ Unlike protected procedures, notifications can be sent in either direction on a 
 **Note:** Notifications provide a mechanism for synchronisation between PDs, however this is not a blocking operation.
 If a PD notifies another PD, that PD will become scheduled to run (if it is not already), but the current PD does **not** block.
 Of course, if the notified PD has a higher priority than the current PD, then the current PD will be preempted (but not blocked) by the other PD.
-
-
 ![Example1](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microkit.Channels.1.png)
-
-Fig. Illustration of fundamentals: the use of a channel
+</br>Fig. Illustration of fundamentals: the use of a channel
 
 ![Example2](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microkit.Channels.2.png)
-
-Fig. Use of channels in more complex case
+</br>Fig. Use of channels in more complex case
 
 ### Interrupts
 
@@ -91,4 +87,9 @@ Without interrupts a system would not do much after system initialisation.
 Microkit does not provides timers, nor any *sleep* API.
 After initialisation, activity in the system is initiated by an interrupt causing a `notified` entry point to be invoked.
 That notified function may in turn notify or call other protection domains that cause other system activity, but eventually all activity indirectly initiated from that interrupt will complete, at which point the system is inactive again until another interrupt occurs.
+
+![Example2](https://github.com/malus-brandywine/malus-brandywine/blob/master/drafts/Microkit.Channels.3.png)
+</br>Fig. Connection of IRQ handler capability with PD via a channel
+
+
 

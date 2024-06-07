@@ -1,4 +1,2 @@
 ### Welcome!
 
-
-(... being updated ...)
